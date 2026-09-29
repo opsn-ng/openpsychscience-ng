@@ -57,19 +57,29 @@ share-description: An open science community.
 
 <section class="band">
   <div class="band-inner">
-    <h2>Why it matters here</h2>
-    <p>
-      Psychological science is built overwhelmingly on evidence from a narrow
-      slice of the world. African samples, African questions and African
-      researchers are underrepresented in the literature — and when the work
-      does appear, it is often hard to check, hard to repeat, and hard to build
-      on.
-    </p>
-    <p>
-      Open practices are how that changes. They make research from this region
-      easier to trust, easier to cite, and easier for the next student to learn
-      from. That is the work OPSN exists to support.
-    </p>
+    <h2>Next OPSN meeting</h2>
+
+    {% if site.data.next_meeting.scheduled %}
+      <p class="meeting-when">{{ site.data.next_meeting.display_date }} · {{ site.data.next_meeting.display_time }}</p>
+      <p class="meeting-paper"><strong>Paper:</strong> {{ site.data.next_meeting.paper_citation }}</p>
+      {% if site.data.next_meeting.paper_note %}
+        <p>{{ site.data.next_meeting.paper_note }}</p>
+      {% endif %}
+      <div class="actions">
+        {% if site.data.next_meeting.meeting_link %}
+          <a class="btn-opsn" href="{{ site.data.next_meeting.meeting_link }}">Join the meeting</a>
+        {% endif %}
+        {% if site.data.next_meeting.calendar_link %}
+          <a class="btn-opsn-quiet" href="{{ site.data.next_meeting.calendar_link }}">Add to calendar</a>
+        {% endif %}
+      </div>
+    {% else %}
+      <p>
+        No meeting is scheduled yet.
+        <a href="{{ '/contact/' | relative_url }}">Get in touch</a>
+        to be told as soon as one is, or to suggest a paper.
+      </p>
+    {% endif %}
   </div>
 </section>
 
