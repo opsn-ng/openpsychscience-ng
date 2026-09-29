@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About OPSN
-subtitle: Who we are and what we're trying to change
+subtitle: Who we are
 ---
 
 Open Psychological Science Nigeria (OPSN) is a community-driven initiative committed to advancing transparent, reproducible, and accessible psychological science in Nigeria.
 
-We bring together students, early-career researchers, clinicians, and senior academics who want to improve their skills on open scholarship.
+We bring together students, early-career researchers, clinicians, and senior academics who want to improve their skills in open scholarship.
 
 ## Our mission
 
