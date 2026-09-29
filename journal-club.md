@@ -4,7 +4,7 @@ title: Journal Club
 subtitle: Discussing articles on Open Science
 ---
 
-The OPSN Journal Club Meeting is scheduled for the last Friday of every month.
+The OPSN Journal Club Meetings are scheduled for every last Friday of the month.
 
 Sessions are open to anyone. You don't need to have read the paper in advance, and you don't need a background in statistics or methods to follow along.
 
