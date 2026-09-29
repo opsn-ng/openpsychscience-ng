@@ -4,19 +4,36 @@ title: Resources
 subtitle: Guides and materials for doing open research
 ---
 
-We're building a curated set of resources for researchers who want to work more openly — chosen with the realities of Nigerian institutions in mind, not just well-funded labs elsewhere.
-
 ## Getting started
 
-If you're new to open science, these are the ideas worth understanding first:
+About Open Science: https://www.cos.io/open-science
 
-- **Preregistration** — recording your hypotheses and analysis plan before you collect data.
-- **Open data and materials** — sharing what's needed to check and repeat a study, while protecting participants.
-- **Reproducible analysis** — writing analysis as code so a result can be re-run.
+Want to playfully learn about open science? Check out this fun online escape room: 
+
+## Other Open Science Organizations and Events
+ReproducibiliTEA: reproducibilitea.org
+RIOT Science Club: riotscience.co.uk
+FORRT: https://forrt.org/
+
+## Computational Tools for Reproducibility
+
+R:  https://cran.r-project.org/
+RStudio: https://posit.co/downloads
+Python: 
+Version control: github.com
 
 ## Teaching materials
+FORRT: https://forrt.org/
+RStudi Education: https://rstudio-education.github.io/hopr/starting.html
+FORRT's Education Nexus
 
-OPSN has produced materials for its own sessions, including explainers on questionable research practices and interactive tools for teaching statistical concepts to non-technical audiences. We're preparing these for wider release.
+## Data Management
+A Curated Collection of Data Management Resources:https://cghlewis.com/blog/data_mgmt_resources/
+
+
+## Preregistration
+
+A list of available preregistration templates: https://osf.io/zg78t
 
 ## Suggest a resource
 
