@@ -8,7 +8,7 @@ subtitle: Guides and materials for doing open research
 
 About Open Science: [Center for Open Science](https://www.cos.io/open-science)
 
-Want to playfully learn about open science? Check out this fun online escape room: 
+[Want to playfully learn about open science? Check out this fun online escape room](https://norment.github.io/ecrm20_escaperoom/) 
 
 ## Other Open Science Organizations and Events
 [ReproducibiliTEA](https://reproducibilitea.org)
