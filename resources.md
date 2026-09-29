@@ -10,12 +10,6 @@ About Open Science: [Center for Open Science](https://www.cos.io/open-science)
 
 [Want to playfully learn about open science? Check out this fun online escape room](https://norment.github.io/ecrm20_escaperoom/) 
 
-## Other Open Science Organizations and Events
-[ReproducibiliTEA](https://reproducibilitea.org)
-
-[RIOT Science Club](https://riotscience.co.uk)
-
-[FORRT](https://forrt.org/)
 
 ## Computational Tools for Reproducibility
 
@@ -41,6 +35,14 @@ RStudio Education: [https://rstudio-education.github.io/hopr/starting.html](http
 ## Preregistration
 
 [A list of available preregistration templates](https://osf.io/zg78t)  
+
+## Other Open Science Organizations and Events
+[ReproducibiliTEA](https://reproducibilitea.org)
+
+[RIOT Science Club](https://riotscience.co.uk)
+
+[FORRT](https://forrt.org/)
+
 
 ## Suggest a resource
 
