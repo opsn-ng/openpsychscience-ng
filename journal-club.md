@@ -1,21 +1,52 @@
 ---
 layout: page
 title: Journal Club
-subtitle: Reading the papers that changed how psychology works
+subtitle: Discussing articles on Open Science
 ---
 
-The OPSN Journal Club meets to read and discuss the research that shaped the credibility movement in psychology — and to work out what it means for research done in Nigeria and across Africa.
+The OPSN Journal Club Meeting is monthly-scheduled.
 
 Sessions are open to anyone. You don't need to have read the paper in advance, and you don't need a background in statistics or methods to follow along.
 
-## How a session runs
+## Next session
 
-One person introduces the paper and why it matters. The group discusses it. We spend the last part of each session on the practical question: what, if anything, should change in how we do our own work?
+<div class="session-next">
+  <span class="session-next-label">Next session</span>
+  {% if site.data.next_meeting.scheduled %}
+    <p class="session-next-paper">{{ site.data.next_meeting.paper_citation }}</p>
+    <p>{{ site.data.next_meeting.display_date }} · {{ site.data.next_meeting.display_time }}</p>
+    {% if site.data.next_meeting.paper_note %}
+      <p>{{ site.data.next_meeting.paper_note }}</p>
+    {% endif %}
+    <div class="actions">
+      {% if site.data.next_meeting.meeting_link %}
+        <a class="btn-opsn" href="{{ site.data.next_meeting.meeting_link }}">Join the meeting</a>
+      {% endif %}
+      {% if site.data.next_meeting.calendar_link %}
+        <a class="btn-opsn-quiet" href="{{ site.data.next_meeting.calendar_link }}">Add to calendar</a>
+      {% endif %}
+    </div>
+  {% else %}
+    <p class="session-next-paper">To be announced</p>
+    <p>Email us to be told as soon as it's scheduled, or to suggest a paper.</p>
+  {% endif %}
+</div>
 
-## What we've covered
+## Previous sessions
 
-- **Ioannidis (2005), "Why Most Published Research Findings Are False"** — with interactive teaching materials, including positive predictive value calculators and icon arrays for non-technical audiences.
-- **Simmons, Nelson & Simonsohn (2011), "False-Positive Psychology"** — on researcher degrees of freedom and questionable research practices.
+<ul class="sessions">
+  <li>
+    <span class="session-date">Late July 2026</span>
+    <span class="session-paper">Simmons, Nelson &amp; Simonsohn (2011), <em>"False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant"</em></span>
+    <span class="session-note">On researcher degrees of freedom and questionable research practices.</span>
+  </li>
+  <li>
+    <span class="session-date">Date TBC</span>
+    <span class="session-paper">Ioannidis (2005), <em>"Why Most Published Research Findings Are False"</em></span>
+    <span class="session-note">With interactive teaching materials, including positive predictive value calculators and icon arrays for non-technical audiences.</span>
+  </li>
+</ul>
+
 
 ## Join a session
 
