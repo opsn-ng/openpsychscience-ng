@@ -19,16 +19,17 @@ Want to playfully learn about open science? Check out this fun online escape roo
 
 R: [https://cran.r-project.org/](https://cran.r-project.org/)
 RStudio: [https://posit.co/downloads](https://posit.co/downloads)
-Python:
+Python: [Anaconda](https://www.anaconda.com/download)
 Version control: [GitHub](https://github.com)
 
 ## Teaching materials
-FORRT: https://forrt.org/
-RStudi Education: https://rstudio-education.github.io/hopr/starting.html
+FORRT: [https://forrt.org/](https://forrt.org/)
+RStudio Education: [https://rstudio-education.github.io/hopr/starting.html](https://rstudio-education.github.io/hopr/starting.html)
+
 FORRT's Education Nexus
 
 ## Data Management
-A Curated Collection of Data Management Resources: [https://cghlewis.com/blog/data_mgmt_resources/](https://cghlewis.com/blog/data_mgmt_resources/)
+: [A Curated Collection of Data Management Resources](https://cghlewis.com/blog/data_mgmt_resources/)
 
 
 ## Preregistration
