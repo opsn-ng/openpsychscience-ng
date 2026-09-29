@@ -35,7 +35,7 @@ RStudio Education: [https://rstudio-education.github.io/hopr/starting.html](http
 FORRT's Education Nexus
 
 ## Data Management
-: [A Curated Collection of Data Management Resources](https://cghlewis.com/blog/data_mgmt_resources/)
+[A Curated Collection of Data Management Resources](https://cghlewis.com/blog/data_mgmt_resources/)
 
 
 ## Preregistration
