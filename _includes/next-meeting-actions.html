@@ -1,0 +1,15 @@
+{% if site.data.next_meeting.meeting_link or site.data.next_meeting.date_iso %}
+<div class="actions">
+  {% if site.data.next_meeting.meeting_link %}
+    <a class="btn-opsn" href="{{ site.data.next_meeting.meeting_link }}">Join the meeting</a>
+  {% endif %}
+  {% if site.data.next_meeting.date_iso and site.data.next_meeting.time_start and site.data.next_meeting.time_end %}
+    {% assign gcal_date = site.data.next_meeting.date_iso | remove: "-" %}
+    {% assign gcal_start = site.data.next_meeting.time_start | remove: ":" | append: "00" %}
+    {% assign gcal_end = site.data.next_meeting.time_end | remove: ":" | append: "00" %}
+    {% assign gcal_dates = gcal_date | append: "T" | append: gcal_start | append: "/" | append: gcal_date | append: "T" | append: gcal_end %}
+    {% assign gcal_details = site.data.next_meeting.paper_citation | url_encode %}
+    <a class="btn-opsn-quiet" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=OPSN+Journal+Club&dates={{ gcal_dates }}&ctz=Africa%2FLagos&details={{ gcal_details }}" target="_blank" rel="noopener">Add to calendar</a>
+  {% endif %}
+</div>
+{% endif %}
