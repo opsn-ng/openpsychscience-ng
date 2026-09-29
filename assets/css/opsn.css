@@ -324,3 +324,79 @@ footer .theme-by {
     transition: none !important;
   }
 }
+
+/* --- Journal Club sessions ------------------------------------------------
+   Used on journal-club.md for the next/previous session listing. */
+
+.session-next {
+  background: var(--opsn-mint);
+  border-left: 3px solid var(--opsn-forest);
+  padding: 1.25rem 1.5rem;
+  max-width: var(--measure);
+  margin: 1.5rem 0 2.5rem;
+}
+.session-next-label {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--opsn-forest);
+}
+.session-next-paper {
+  font-family: var(--header-font);
+  font-size: 1.15rem;
+  color: var(--opsn-forest);
+  margin: 0.35rem 0 0.5rem;
+}
+.session-next p:last-child {
+  margin-bottom: 0;
+  max-width: none;
+}
+
+.sessions {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  max-width: var(--measure);
+}
+.sessions li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  border-top: 1px solid var(--opsn-rule);
+  padding: 1.25rem 0;
+}
+.sessions li:last-child {
+  border-bottom: 1px solid var(--opsn-rule);
+}
+.session-date {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--opsn-quiet);
+}
+.session-paper {
+  font-family: var(--header-font);
+  font-size: 1.05rem;
+  color: var(--opsn-ink);
+}
+.session-note {
+  font-size: 0.9375rem;
+  color: var(--opsn-quiet);
+}
+
+.meeting-when {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--opsn-quiet);
+  margin-bottom: 0.5rem;
+}
+.meeting-paper {
+  font-family: var(--header-font);
+  font-size: 1.2rem;
+  color: var(--opsn-forest);
+}
