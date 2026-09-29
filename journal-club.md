@@ -46,12 +46,10 @@ Sessions are open to anyone. You don't need to have read the paper in advance, a
   <li>
     <span class="session-date">July 31, 2026</span>
     <span class="session-paper">Simmons, Nelson &amp; Simonsohn (2011), <a href="https://doi.org/10.1177/0956797611417632"><em>"False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant"</em></a></span>
-    <span class="session-note">On researcher degrees of freedom and questionable research practices.</span>
   </li>
   <li>
     <span class="session-date">June 19, 2026</span>
     <span class="session-paper">Ioannidis (2005), <a href="https://doi.org/10.1371/journal.pmed.0020124"><em>"Why Most Published Research Findings Are False"</em></a></span>
-    <span class="session-note">With interactive teaching materials, including positive predictive value calculators and icon arrays for non-technical audiences.</span>
   </li>
 </ul>
 
