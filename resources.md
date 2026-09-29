@@ -12,18 +12,24 @@ About Open Science: [Center for Open Science](https://www.cos.io/open-science)
 
 ## Other Open Science Organizations and Events
 [ReproducibiliTEA](https://reproducibilitea.org)
+
 [RIOT Science Club](https://riotscience.co.uk)
+
 [FORRT](https://forrt.org/)
 
 ## Computational Tools for Reproducibility
 
 R: [https://cran.r-project.org/](https://cran.r-project.org/)
+
 RStudio: [https://posit.co/downloads](https://posit.co/downloads)
+
 Python: [Anaconda](https://www.anaconda.com/download)
+
 Version control: [GitHub](https://github.com)
 
 ## Teaching materials
 FORRT: [https://forrt.org/](https://forrt.org/)
+
 RStudio Education: [https://rstudio-education.github.io/hopr/starting.html](https://rstudio-education.github.io/hopr/starting.html)
 
 FORRT's Education Nexus
