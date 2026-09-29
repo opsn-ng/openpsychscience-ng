@@ -32,7 +32,7 @@ FORRT: [https://forrt.org/](https://forrt.org/)
 
 RStudio Education: [https://rstudio-education.github.io/hopr/starting.html](https://rstudio-education.github.io/hopr/starting.html)
 
-FORRT's Education Nexus
+[FORRT's Education Nexus](https://forrt.org/nexus/)
 
 ## Data Management
 [A Curated Collection of Data Management Resources](https://cghlewis.com/blog/data_mgmt_resources/)
