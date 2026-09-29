@@ -22,10 +22,6 @@ To promote open science practices within psychological science in Nigeria — no
 
 **Community building.** A place for students and early-career researchers to find collaborators, ask questions, and get feedback on work in progress.
 
-## How it started
-
-OPSN grew out of the 2023 Open Science Summer School, and is founded and coordinated by Michael I. Ehinmowo.
-
 ## Take part
 
 Everything we run is open. [Get in touch]({{ site.baseurl }}/contact/) if you'd like to join a session, suggest a topic, or help organise.
