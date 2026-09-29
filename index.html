@@ -65,14 +65,7 @@ share-description: An open science community.
       {% if site.data.next_meeting.paper_note %}
         <p>{{ site.data.next_meeting.paper_note }}</p>
       {% endif %}
-      <div class="actions">
-        {% if site.data.next_meeting.meeting_link %}
-          <a class="btn-opsn" href="{{ site.data.next_meeting.meeting_link }}">Join the meeting</a>
-        {% endif %}
-        {% if site.data.next_meeting.calendar_link %}
-          <a class="btn-opsn-quiet" href="{{ site.data.next_meeting.calendar_link }}">Add to calendar</a>
-        {% endif %}
-      </div>
+      {% include next-meeting-actions.html %}
     {% else %}
       <p>
         No meeting is scheduled yet.
