@@ -1,0 +1,19 @@
+# The single source of truth for the "next meeting" info shown on the
+# homepage and the Journal Club page. Edit this file when a session is
+# scheduled — both pages update automatically.
+#
+# scheduled: set to true once a session is actually booked. While false,
+# both pages show a "not yet scheduled" placeholder instead.
+#
+# calendar_link: point this at the actual calendar event (e.g. the "Add to
+# Google Calendar" link Google gives you when you create the event, or the
+# event's share link) — that's what keeps this in sync with a real calendar
+# rather than us re-typing the date by hand.
+
+scheduled: true
+display_date: "Friday, October 30, 2026"
+display_time: ""     # add once you have it
+paper_citation: "Szollosi, A., & Donkin, C. (2021), \"Arrested Theory Development: The Misguided Distinction Between Exploratory and Confirmatory Research,\" Perspectives on Psychological Science, 16(4), 717–724. DOI: 10.1177/1745691620966796"
+paper_note: ""
+meeting_link: ""      # add once you have it
+calendar_link: ""
