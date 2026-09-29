@@ -411,3 +411,8 @@ footer .theme-by {
   font-size: 1.2rem;
   color: var(--opsn-forest);
 }
+
+
+.band.hero {
+  padding-top: 6rem !important;
+}
