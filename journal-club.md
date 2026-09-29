@@ -18,14 +18,7 @@ Sessions are open to anyone. You don't need to have read the paper in advance, a
     {% if site.data.next_meeting.paper_note %}
       <p>{{ site.data.next_meeting.paper_note }}</p>
     {% endif %}
-    <div class="actions">
-      {% if site.data.next_meeting.meeting_link %}
-        <a class="btn-opsn" href="{{ site.data.next_meeting.meeting_link }}">Join the meeting</a>
-      {% endif %}
-      {% if site.data.next_meeting.calendar_link %}
-        <a class="btn-opsn-quiet" href="{{ site.data.next_meeting.calendar_link }}">Add to calendar</a>
-      {% endif %}
-    </div>
+    {% include next-meeting-actions.html %}
   {% else %}
     <p class="session-next-paper">To be announced</p>
     <p>Email us to be told as soon as it's scheduled, or to suggest a paper.</p>
