@@ -22,6 +22,7 @@ Python: [Anaconda](https://www.anaconda.com/download)
 Version control: [GitHub](https://github.com)
 
 ## Teaching materials
+
 FORRT: [https://forrt.org/](https://forrt.org/)
 
 RStudio Education: [https://rstudio-education.github.io/hopr/starting.html](https://rstudio-education.github.io/hopr/starting.html)
@@ -29,6 +30,7 @@ RStudio Education: [https://rstudio-education.github.io/hopr/starting.html](http
 [FORRT's Education Nexus](https://forrt.org/nexus/)
 
 ## Data Management
+
 [A Curated Collection of Data Management Resources](https://cghlewis.com/blog/data_mgmt_resources/)
 
 
@@ -37,6 +39,7 @@ RStudio Education: [https://rstudio-education.github.io/hopr/starting.html](http
 [A list of available preregistration templates](https://osf.io/zg78t)  
 
 ## Other Open Science Organizations and Events
+
 [ReproducibiliTEA](https://reproducibilitea.org)
 
 [RIOT Science Club](https://riotscience.co.uk)
